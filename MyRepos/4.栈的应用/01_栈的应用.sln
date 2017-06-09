@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_栈的应用", "01_栈的应用\01_栈的应用.vcxproj", "{5F4C8AA4-C8B6-40BD-9A97-EBA61BBF9727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F4C8AA4-C8B6-40BD-9A97-EBA61BBF9727}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F4C8AA4-C8B6-40BD-9A97-EBA61BBF9727}.Debug|Win32.Build.0 = Debug|Win32
+		{5F4C8AA4-C8B6-40BD-9A97-EBA61BBF9727}.Release|Win32.ActiveCfg = Release|Win32
+		{5F4C8AA4-C8B6-40BD-9A97-EBA61BBF9727}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
