@@ -26,7 +26,7 @@ var S = {
       var lefttime = Math.ceil((endtime.getTime() - curtime.getTime()) / (24 * 60 * 60 * 1000));
       var fightingDay = '离高考还有' + lefttime + '天!'
       // S.UI.simulate('#rectangle|#countdown 3|张媛|我爱你!|#author||');
-      S.UI.simulate('#rectangle|#countdown 3|离高考还有99天!|#author||');
+      S.UI.simulate('#rectangle|#countdown 3|离高考还有99天!||');
       // S.UI.simulate('#countdown 3|'+ fightingDay + '|加油!||');
     }
 
