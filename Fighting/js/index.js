@@ -21,7 +21,11 @@ var S = {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
       // S.UI.simulate('#rectangle|#countdown 3|The Day is|#Date|The Time Is|#time|Who Name|节日快乐|Best Wishes!|#author||');
-      S.UI.simulate('#rectangle|#countdown 3|离高考还有100天!|加油!|#author||');
+      var curtime = new Date();
+      var endtime = new Date('2019,6,6');
+      var lefttime = Math.ceil((endtime.getTime() - curtime.getTime()) / (24 * 60 * 60 * 1000));
+      var fightingDay = '离高考还有' + lefttime + '天!'
+      S.UI.simulate('#countdown 3|'+ fightingDay + '|加油!|#author||');
     }
 
     S.Drawing.loop(function () {
