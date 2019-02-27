@@ -25,7 +25,7 @@ var S = {
       var endtime = new Date('2019,6,6');
       var lefttime = Math.ceil((endtime.getTime() - curtime.getTime()) / (24 * 60 * 60 * 1000));
       var strFighting = '#countdown 3|离高考还有' + lefttime + '天!|加油!|';
-      S.UI.simulate(strFighting);
+      S.UI.simulate('#countdown 3|离高考还有999天!|加油!|');
     }
 
     S.Drawing.loop(function () {
